@@ -1,0 +1,121 @@
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  /* position: relative; */
+  background-color: rgb(200, 200, 200);
+  text-align: center;
+}
+
+.body-h1{
+  color: black;
+}
+
+table {
+  background-color: #fff;
+  margin: 0 auto;
+}
+
+.thead-h1 {
+  color: rgb(70, 70, 70);
+}
+
+table tr {
+  border-bottom: black 100px;
+}
+
+table td {
+  padding: 30px;
+}
+
+td:first-child {
+  width: 105px;
+  font-weight: bold;
+}
+
+td:nth-child(3) {
+  font-weight: bold;
+}
+
+tr:nth-child(odd) {
+  background-color: rgb(211, 211, 211);
+}
+
+td span {
+  padding: 15px;
+}
+
+
+
+.delete:hover {
+  cursor: pointer;
+  color: grey;
+}
+
+.heart {
+  color: red;
+}
+
+.item-1 {
+  /* display: inline-block; */
+  text-align: center;
+  font-size: 25px;
+}
+
+img {
+  border-radius: 20%;
+  height: 100px;
+  transition: all 0.3s;
+}
+img:hover{
+  transform: scale(2.5, 2.5);
+  
+
+}
+
+/* CSS */
+button {
+  align-items: center;
+  appearance: none;
+  background-color: #fcfcfd;
+  border-radius: 4px;
+  border-width: 0;
+  box-shadow: rgba(45, 35, 66, 0.4) 0 2px 4px,
+    rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #d6d6e7 0 -3px 0 inset;
+  box-sizing: border-box;
+  color: #36395a;
+  cursor: pointer;
+  display: inline-flex;
+  font-family: "JetBrains Mono", monospace;
+  height: 48px;
+  justify-content: center;
+  line-height: 1;
+  list-style: none;
+  overflow: hidden;
+  padding-left: 16px;
+  padding-right: 16px;
+  position: relative;
+  text-align: left;
+  text-decoration: none;
+  transition: box-shadow 0.15s, transform 0.15s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  white-space: nowrap;
+  will-change: box-shadow, transform;
+  font-size: 18px;
+}
+
+button:focus {
+  box-shadow: #d6d6e7 0 0 0 1.5px inset, rgba(45, 35, 66, 0.4) 0 2px 4px,
+    rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #d6d6e7 0 -3px 0 inset;
+}
+
+button:hover {
+  box-shadow: rgba(45, 35, 66, 0.4) 0 4px 8px,
+    rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #d6d6e7 0 -3px 0 inset;
+  transform: translateY(-2px);
+}
+
+button:active {
+  box-shadow: #d6d6e7 0 3px 7px inset;
+  transform: translateY(2px);
+}
